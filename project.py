@@ -7,7 +7,7 @@ def ts_to_datetime(ts) -> str:
 
 
 def data_main(stockTicker,multipliar,indexFormat,_from,_to):
-    API_KEY="WD42r4ATWJNEbbbQv5SBhEbMZRgTOQfD"
+    API_KEY="Your API Token"
     with RESTClient(API_KEY) as client:
 
         resp = client.stocks_equities_aggregates(stockTicker, multipliar, indexFormat, _from, _to, unadjusted=True)
