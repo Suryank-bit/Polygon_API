@@ -5,7 +5,7 @@ import requests
 
 
 stocks = pd.read_csv('sp_500_stocks.csv')
-API_TOKEN = 'WD42r4ATWJNEbbbQv5SBhEbMZRgTOQfD'
+API_TOKEN = 'Your API Token'
 
 my_col = ['Ticker','Open', 'Close', 'High', 'Low', 'Volume']
 i=1
